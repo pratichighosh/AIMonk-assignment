@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import TagView, { assignIds } from './components/TagView'
 
-const API_BASE = 'http://127.0.0.1:8000/api'
+const API_BASE = 'https://aimonk-six.vercel.app/'
 
 // Default initial tree shown when no saved data yet
 const DEFAULT_TREE = assignIds({
